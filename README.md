@@ -37,10 +37,10 @@
 ### Details
 * **docker-compose.yml:** Configure file for docker-compose, which
 * **Dockerfile:** Configure file for docker build
-* **logic**
-* **logic_demo**
-* **manage.py**
-* **requirements.txt**
+* **logic:** main djangog directory for logic app
+* **logic_demo:** main django entry for logci_demo project
+* **manage.py:** manager tool
+* **requirements.txt:** required package
 
 ### Deployment
 * Install docker(Reference to [official doc](https://docs.docker.com/install/linux/docker-ce/centos/))
@@ -68,4 +68,7 @@ docker-compose up
 You'd use httpie
 ```bash
 pip install httpie
+```
+```bash
+http POST http://[YourHost]:8000/logic/ function="xxx" input_string="xxx"
 ```

@@ -1,7 +1,7 @@
 # Project logic-demo
 
 ### Base on django-rest-framework, to implement following logic:
-* stringCLean
+* stringClean
 * maxBlock
 * reorderBlock
 

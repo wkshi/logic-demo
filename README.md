@@ -23,11 +23,6 @@
 │   └── views.py
 ├── logic_demo
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-37.pyc
-│   │   ├── settings.cpython-37.pyc
-│   │   ├── urls.cpython-37.pyc
-│   │   └── wsgi.cpython-37.pyc
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
